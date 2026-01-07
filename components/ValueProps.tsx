@@ -16,8 +16,8 @@ const ValueProps: React.FC = () => {
               {/* Visual Representation of Strategy/Research */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                  <span className="text-gray-400 text-sm">Competitor Analysis</span>
-                  <span className="text-green-400 text-sm">Completed</span>
+                  <span className="text-gray-400 text-sm">Analyse d'Admissibilité</span>
+                  <span className="text-green-400 text-sm">Complétée</span>
                 </div>
                 <div className="space-y-2">
                   <div className="h-2 bg-white/10 rounded-full w-3/4" />
@@ -26,8 +26,8 @@ const ValueProps: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-6">
                   <div className="bg-blue-500/10 p-4 rounded-xl border border-blue-500/20">
-                    <div className="text-2xl font-bold text-white mb-1">20+</div>
-                    <div className="text-xs text-blue-200">Competitors Analyzed</div>
+                    <div className="text-2xl font-bold text-white mb-1">15+</div>
+                    <div className="text-xs text-blue-200">Programmes Analysés</div>
                   </div>
                   <div className="bg-purple-500/10 p-4 rounded-xl border border-purple-500/20">
                     <div className="text-2xl font-bold text-white mb-1">100%</div>
@@ -39,14 +39,14 @@ const ValueProps: React.FC = () => {
           </div>
           <div className="order-1 md:order-2 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-medium uppercase tracking-wider">
-              01. Deep Research
+              01. Audit Stratégique
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              We Don't Guess.<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">We Architect.</span>
+              On ne devine pas.<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">On calcule.</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
-              We go beyond surface-level insights. We analyze your market, dissect the top 20 competitors in your niche, and identify exactly who isn't getting served. Then, we build a bespoke strategy tailored to your voice and your goals. No templates, just data-backed precision.
+              Nous n'envoyons pas de demandes au hasard. Nous analysons votre structure corporative, vos dépenses R-D et vos projets d'embauche pour identifier exactement quels programmes (CDAP, ESSOR, RS&DE) s'appliquent à VOUS. Pas de pertes de temps.
             </p>
           </div>
         </div>
@@ -55,14 +55,14 @@ const ValueProps: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-medium uppercase tracking-wider">
-              02. Consistent Execution
+              02. Gestion Bureaucratique
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              Daily Content That<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Actually Converts.</span>
+              L'Admin ?<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">C'est notre problème.</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
-              We post for you every single day. Highly optimized content designed not just for likes, but to turn viewers into buyers. We handle 100% of the engagement—responding to comments and nurturing relationships—so your profile grows while you sleep.
+              L'erreur #1 qui cause 73% des rejets ? Des formulaires mal remplis. Nous gérons 100% de la paperasse, des suivis avec les fonctionnaires et de la conformité. Vous continuez à diriger votre entreprise, nous nous battons pour votre argent.
             </p>
           </div>
 
@@ -81,11 +81,11 @@ const ValueProps: React.FC = () => {
                   <div className="flex gap-4 pt-2">
                     <div className="flex items-center gap-2 text-gray-500 text-xs">
                       <div className="w-4 h-4 bg-blue-500/20 rounded-full" />
-                      <span>1,240 Likes</span>
+                      <span>Dossier Soumis</span>
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs">
                       <div className="w-4 h-4 bg-green-500/20 rounded-full" />
-                      <span>48 Comments</span>
+                      <span>En Traitement</span>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const ValueProps: React.FC = () => {
               {/* Floating Elements */}
               <div className="absolute -right-6 top-1/2 -translate-y-1/2 bg-black/80 backdrop-blur-xl p-4 rounded-xl border border-white/10 shadow-2xl flex items-center gap-3 animate-pulse">
                 <div className="w-2 h-2 rounded-full bg-green-500" />
-                <span className="text-white text-sm font-medium">New Lead Captured</span>
+                <span className="text-white text-sm font-medium">Approuvé: 45 000 $</span>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ const ValueProps: React.FC = () => {
               <div className="space-y-6">
                 <div className="flex justify-between items-end">
                   <div>
-                    <p className="text-gray-400 text-xs uppercase tracking-wider mb-1">Monthly Revenue</p>
+                    <p className="text-gray-400 text-xs uppercase tracking-wider mb-1">Montant Récupéré</p>
                     <h3 className="text-4xl font-bold text-white">$42,500</h3>
                   </div>
                   <div className="text-green-400 flex items-center gap-1 text-sm font-medium bg-green-500/10 px-2 py-1 rounded-lg">
@@ -134,14 +134,14 @@ const ValueProps: React.FC = () => {
           </div>
           <div className="order-1 md:order-2 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-medium uppercase tracking-wider">
-              03. Revenue Focus
+              03. Résultats Concrets
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              From Engagement<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">To Income.</span>
+              De la promesse<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">Au dépôt bancaire.</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
-              Vanity metrics don't pay the bills. We optimize your entire funnel to ensure attention turns into retention, and retention turns into revenue. We track every lead, nurture every prospect, and operationalize your LinkedIn presence so it becomes a reliable income stream.
+              Les promesses ne paient pas les factures. Nous suivons le dossier jusqu'à ce que le chèque soit déposé. Pas de "crédit" obscur, mais de l'argent comptant pour réinvestir dans votre croissance, votre personnel et votre technologie.
             </p>
           </div>
         </div>

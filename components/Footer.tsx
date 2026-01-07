@@ -8,33 +8,33 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="Logo/1.png"
+                src="Logo/novik_cons_logo.png"
                 alt="Logo"
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
             </div>
             <p className="text-gray-400 max-w-sm">
-              Helping expert consultants and agencies scale past $50k/mo with data-driven LinkedIn systems.
+              Aider les PME du Québec à récupérer les millions laissés sur la table en subventions et crédits d'impôt.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-8 md:justify-end">
-            <a href="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Case Studies</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Methodology</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Login</a>
+            <a href="/blog" className="text-gray-400 hover:text-white transition-colors">Blogue</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Études de cas</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Méthodologie</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Tarification</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Connexion</a>
           </div>
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-sm">
-            © 2025 Growth Intelligence. All Rights Reserved.
+            © 2025 Novik Consulting. Tous droits réservés.
           </p>
 
           <div className="flex gap-6 text-sm text-gray-600">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Politique de confidentialité</a>
+            <a href="#" className="hover:text-white transition-colors">Conditions d'utilisation</a>
           </div>
         </div>
       </div>

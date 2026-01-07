@@ -16,7 +16,7 @@ interface SEOProps {
 const SEO: React.FC<SEOProps> = ({
   title,
   description,
-  image = '/Logo/1.png',
+  image = '/Logo/novik_cons_logo.png',
   url = typeof window !== 'undefined' ? window.location.href : '',
   type = 'website',
   publishedTime,
@@ -25,7 +25,7 @@ const SEO: React.FC<SEOProps> = ({
   tags,
   structuredData
 }) => {
-  const siteName = 'Scale With Teddy';
+  const siteName = 'Novik Consulting';
   const fullTitle = `${title} | ${siteName}`;
 
   useEffect(() => {
@@ -88,7 +88,7 @@ const SEO: React.FC<SEOProps> = ({
 
     // Structured Data (JSON-LD)
     if (structuredData) {
-      let script = document.querySelector('script[type="application/ld+json"]');
+      let script = document.querySelector('script[type="application/ld+json"]') as HTMLScriptElement;
       if (!script) {
         script = document.createElement('script');
         script.type = 'application/ld+json';

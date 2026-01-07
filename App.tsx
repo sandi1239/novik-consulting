@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import Brands from './components/Brands';
 import ValueProps from './components/ValueProps';
 import Testimonials from './components/Testimonials';
-import ContactForm from './components/ContactForm';
 import BookingCalendar from './components/BookingCalendar';
 import Footer from './components/Footer';
 import BlogPage from './components/BlogPage';
@@ -20,7 +19,6 @@ const HomePage: React.FC = () => {
       <Brands />
       <ValueProps />
       <Testimonials />
-      <ContactForm />
       <BookingCalendar />
     </>
   );

@@ -3,21 +3,21 @@ import React from 'react';
 const Testimonials: React.FC = () => {
   const reviews = [
     {
-      name: "Michael Chen",
-      role: "Founder, Scale Digital",
-      text: "We went from zero LinkedIn presence to 17 qualified discovery calls in the first 45 days. Closed 4 new clients worth $78k in recurring revenue. This completely changed how we think about client acquisition.",
+      name: "Jean-Philippe Tremblay",
+      role: "Président, Usinage Nordique (Saguenay)",
+      text: "On pensait qu'on n'était pas admissibles à la R-D. Victoria nous a montré qu'on avait droit à 82 000 $ pour nos tests de production. L'argent est rentré en 5 semaines. C'est du cashflow qu'on allait perdre.",
       img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&q=80"
     },
     {
-      name: "Jennifer Martinez",
-      role: "CEO, Growth Labs Agency",
-      text: "I was skeptical because I'd tried LinkedIn before with zero results. Within 3 weeks we had our calendar filled with ideal-fit prospects. We've since brought on 6 new retainer clients and had to expand our team.",
+      name: "Sophie Gagnon",
+      role: "CEO, TechStratos (Québec)",
+      text: "Le programme PCAN était un mystère pour nous. L'équipe Novik a pris le dossier en main, et on a reçu 15 000 $ pour notre transformation numérique + un prêt sans intérêt. Zéro paperasse pour moi.",
       img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80"
     },
     {
-      name: "David Thompson",
-      role: "Managing Partner, Apex Consulting",
-      text: "Finally, a predictable lead source that doesn't require me to do anything. We're booking 8-12 calls per month with decision-makers who actually have budget. Best ROI we've ever seen from any marketing channel.",
+      name: "Marc-André Roy",
+      role: "Directeur, AgroBio Mauricie",
+      text: "J'étais sceptique sur les subventions salariales. Ils ont trouvé un programme pour financer 50% du salaire de nos 3 nouveaux ingénieurs. Ça change complètement notre rentabilité cette année.",
       img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80"
     }
   ];
@@ -29,7 +29,7 @@ const Testimonials: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-20 text-center">
-          Real Results from <span className="text-gradient-blue">Real Agencies</span>
+          Des résultats réels pour des <span className="text-gradient-blue">PME d'ici</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">

@@ -31,15 +31,15 @@ const BookingCalendar: React.FC = () => {
             };
         })(window, "https://app.cal.com/embed/embed.js", "init");
 
-        (window as any).Cal("init", "teddy-15", { origin: "https://app.cal.com" });
+        (window as any).Cal("init", "victoria-allen", { origin: "https://app.cal.com" });
 
-        (window as any).Cal.ns["teddy-15"]("inline", {
-            elementOrSelector: "#my-cal-inline-teddy-15",
+        (window as any).Cal.ns["victoria-allen"]("inline", {
+            elementOrSelector: "#my-cal-inline-victoria-allen",
             config: { "layout": "month_view" },
-            calLink: "jackroberts/teddy-15",
+            calLink: "victoria-allen-89foy4/30min",
         });
 
-        (window as any).Cal.ns["teddy-15"]("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
+        (window as any).Cal.ns["victoria-allen"]("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
     }, []);
 
     return (
@@ -47,15 +47,15 @@ const BookingCalendar: React.FC = () => {
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                        Book Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Revenue Audit</span>
+                        Réservez votre <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Audit Gratuit</span>
                     </h2>
                     <p className="text-gray-400 text-lg">
-                        Let's identify the gaps in your current LinkedIn strategy.
+                        Identifions ensemble les programmes de subventions auxquels vous êtes admissible.
                     </p>
                 </div>
 
                 <div className="bg-white/5 rounded-3xl p-4 border border-white/10 backdrop-blur-sm overflow-hidden min-h-[700px]">
-                    <div style={{ width: "100%", height: "100%", overflow: "scroll" }} id="my-cal-inline-teddy-15"></div>
+                    <div style={{ width: "100%", height: "100%", overflow: "scroll" }} id="my-cal-inline-victoria-allen"></div>
                 </div>
             </div>
         </section>
