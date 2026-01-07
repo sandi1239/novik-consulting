@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-20 border-t border-white/5 relative bg-black/50 backdrop-blur-lg">
+    <footer className="py-12 md:py-20 border-t border-white/5 relative bg-black/50 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-10 md:mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img

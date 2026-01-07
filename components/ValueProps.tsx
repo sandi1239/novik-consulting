@@ -6,13 +6,13 @@ const ValueProps: React.FC = () => {
       {/* Background Gradient Line */}
       <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-blue-500/20 to-transparent hidden md:block" />
 
-      <div className="max-w-7xl mx-auto px-6 space-y-32 py-32 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 space-y-16 md:space-y-32 py-16 md:py-32 relative z-10">
 
         {/* Section 1: Research & Strategy */}
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="absolute inset-0 bg-blue-500/20 blur-[100px] rounded-full" />
-            <div className="glass-panel p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
+            <div className="glass-panel p-6 md:p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
               {/* Visual Representation of Strategy/Research */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between border-b border-white/10 pb-4">
@@ -41,7 +41,7 @@ const ValueProps: React.FC = () => {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-medium uppercase tracking-wider">
               01. Audit Stratégique
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
               On ne devine pas.<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">On calcule.</span>
             </h2>
@@ -57,7 +57,7 @@ const ValueProps: React.FC = () => {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-medium uppercase tracking-wider">
               02. Gestion Bureaucratique
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
               L'Admin ?<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">C'est notre problème.</span>
             </h2>
@@ -68,7 +68,7 @@ const ValueProps: React.FC = () => {
 
           <div className="relative">
             <div className="absolute inset-0 bg-purple-500/20 blur-[100px] rounded-full" />
-            <div className="glass-panel p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
+            <div className="glass-panel p-6 md:p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
               {/* Visual Representation of Daily Content */}
               <div className="flex gap-4">
                 <div className="w-12 h-12 rounded-full bg-gray-700 flex-shrink-0" />
@@ -104,7 +104,7 @@ const ValueProps: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="absolute inset-0 bg-green-500/20 blur-[100px] rounded-full" />
-            <div className="glass-panel p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
+            <div className="glass-panel p-6 md:p-8 rounded-3xl border border-white/10 relative z-10 transform hover:scale-[1.02] transition-transform duration-500">
               {/* Visual Representation of Revenue/Funnel */}
               <div className="space-y-6">
                 <div className="flex justify-between items-end">
@@ -136,7 +136,7 @@ const ValueProps: React.FC = () => {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-medium uppercase tracking-wider">
               03. Résultats Concrets
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
               De la promesse<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">Au dépôt bancaire.</span>
             </h2>

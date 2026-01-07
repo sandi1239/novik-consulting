@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
       <Starfield />
 
       {/* Logo */}
-      <div className="mb-20 relative z-10 mt-4">
+      <div className="mb-12 md:mb-20 relative z-10 mt-4">
         <img
           src="Logo/novik_cons_logo.png"
           alt="Logo"
@@ -113,7 +113,7 @@ const Hero: React.FC = () => {
       {/* Headlines */}
       <div className="text-center max-w-5xl px-6 relative z-10 transition-all duration-1000">
 
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 opacity-0 animate-[fadeInUp_1s_ease-out_0.2s_forwards] leading-[1.1]">
+        <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-8 opacity-0 animate-[fadeInUp_1s_ease-out_0.2s_forwards] leading-[1.1]">
           <span className="text-white">Vos concurrents encaissent des millions en subventions.</span><br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 animate-gradient-x">Vous, vous regardez.</span>
         </h1>

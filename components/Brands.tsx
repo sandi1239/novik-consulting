@@ -25,7 +25,7 @@ const Brands: React.FC = () => {
   const duplicatedBrands = [...brands, ...brands];
 
   return (
-    <section className="py-24 relative overflow-hidden bg-black">
+    <section className="py-12 md:py-24 relative overflow-hidden bg-black">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/5 to-transparent pointer-events-none" />
 

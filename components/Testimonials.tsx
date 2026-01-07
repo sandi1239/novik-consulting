@@ -23,18 +23,18 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="py-32 relative">
+    <section className="py-16 md:py-32 relative overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold mb-20 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 md:mb-20 text-center">
           Des résultats réels pour des <span className="text-gradient-blue">PME d'ici</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {reviews.map((r, i) => (
-            <div key={i} className="glass-panel p-8 md:p-10 rounded-3xl relative group hover:-translate-y-2 transition-transform duration-500">
+            <div key={i} className="glass-panel p-6 md:p-10 rounded-3xl relative group hover:-translate-y-2 transition-transform duration-500">
               {/* Quote Icon */}
               <div className="absolute top-6 right-8 text-white/5 group-hover:text-blue-500/20 transition-colors duration-500">
                 <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
