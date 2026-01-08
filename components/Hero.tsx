@@ -162,10 +162,30 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
 
-                {/* LinkedIn Box */}
-                <div className="bg-[#0077b5]/10 rounded-2xl p-4 border border-[#0077b5]/30 flex flex-col h-full group/linkedin hover:bg-[#0077b5]/20 transition-all relative overflow-hidden">
+                {/* Quebec Flag Box */}
+                <div className="bg-[#003399]/20 rounded-2xl p-4 border border-[#003399]/40 flex flex-col h-full group/quebec hover:bg-[#003399]/30 transition-all relative overflow-hidden">
                   <div className="flex items-center gap-3 mb-2 z-10">
-                    <img src="Logo/LinkedIn_logo_initials.png.webp" alt="LinkedIn" className="w-8 h-8 object-contain" />
+                    {/* Quebec Flag SVG */}
+                    <div className="w-8 h-8 shadow-sm rounded overflow-hidden">
+                      <svg viewBox="0 0 600 400" className="w-full h-full">
+                        <rect width="600" height="400" fill="#003399" />
+                        <rect width="600" height="60" y="170" fill="#FFFFFF" />
+                        <rect width="60" height="400" x="270" fill="#FFFFFF" />
+                        {/* Simplified Fleur-de-lis representation (4 quadrants) */}
+                        <g fill="#FFFFFF" transform="translate(135,100) scale(0.15)">
+                          <path d="M50,85 C20,85 10,50 10,50 C10,50 20,40 30,40 C40,40 45,55 50,65 C55,55 60,40 70,40 C80,40 90,50 90,50 C90,50 80,85 50,85 M50,10 C45,25 35,35 35,35 C35,35 45,40 50,40 C55,40 65,35 65,35 C65,35 55,25 50,10 M10,60 C5,70 20,90 50,90 C80,90 95,70 90,60 C80,80 60,80 50,80 C40,80 20,80 10,60 Z" transform="translate(-50,-50)" />
+                        </g>
+                        <g fill="#FFFFFF" transform="translate(465,100) scale(0.15)">
+                          <path d="M50,85 C20,85 10,50 10,50 C10,50 20,40 30,40 C40,40 45,55 50,65 C55,55 60,40 70,40 C80,40 90,50 90,50 C90,50 80,85 50,85 M50,10 C45,25 35,35 35,35 C35,35 45,40 50,40 C55,40 65,35 65,35 C65,35 55,25 50,10 M10,60 C5,70 20,90 50,90 C80,90 95,70 90,60 C80,80 60,80 50,80 C40,80 20,80 10,60 Z" transform="translate(-50,-50)" />
+                        </g>
+                        <g fill="#FFFFFF" transform="translate(135,300) scale(0.15)">
+                          <path d="M50,85 C20,85 10,50 10,50 C10,50 20,40 30,40 C40,40 45,55 50,65 C55,55 60,40 70,40 C80,40 90,50 90,50 C90,50 80,85 50,85 M50,10 C45,25 35,35 35,35 C35,35 45,40 50,40 C55,40 65,35 65,35 C65,35 55,25 50,10 M10,60 C5,70 20,90 50,90 C80,90 95,70 90,60 C80,80 60,80 50,80 C40,80 20,80 10,60 Z" transform="translate(-50,-50)" />
+                        </g>
+                        <g fill="#FFFFFF" transform="translate(465,300) scale(0.15)">
+                          <path d="M50,85 C20,85 10,50 10,50 C10,50 20,40 30,40 C40,40 45,55 50,65 C55,55 60,40 70,40 C80,40 90,50 90,50 C90,50 80,85 50,85 M50,10 C45,25 35,35 35,35 C35,35 45,40 50,40 C55,40 65,35 65,35 C65,35 55,25 50,10 M10,60 C5,70 20,90 50,90 C80,90 95,70 90,60 C80,80 60,80 50,80 C40,80 20,80 10,60 Z" transform="translate(-50,-50)" />
+                        </g>
+                      </svg>
+                    </div>
                     <div>
                       <div className="text-xl font-bold text-white leading-none">2.4 G$</div>
                       <div className="text-[10px] text-blue-200">Disponibles (QC)</div>

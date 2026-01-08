@@ -72,7 +72,13 @@ const Brands: React.FC = () => {
         }
 
         .animate-scroll {
-          animation: scroll 60s linear infinite;
+          animation: scroll 20s linear infinite;
+        }
+
+        @media (min-width: 768px) {
+          .animate-scroll {
+            animation: scroll 60s linear infinite;
+          }
         }
       `}</style>
     </section>
